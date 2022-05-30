@@ -64,7 +64,6 @@ function Block(){
                 <Box key={index} item={item} id={index} handleClick={handleClick} />
             )) }
             <button onClick={reload} className={'btn-res'}>Restart</button>
-            <button onClick={reload}>Restart</button>
         </div>
     )
 }
